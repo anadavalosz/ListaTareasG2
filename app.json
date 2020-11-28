@@ -1,0 +1,5 @@
+{
+  "name": "Practica web services",
+  "description": "Lista de tareas usando GraphQL",
+  "keywords": ["node", "graphql", "express"]
+}
