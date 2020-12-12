@@ -4,13 +4,17 @@
   "engines": {
     "node": "12.x"
   },
-  "description": "",
+  "description": "CRUD lista tareas",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "graphql",
+    "heroku"
+  ],
+  "author": "AnaMaria DavalosHernandez",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"

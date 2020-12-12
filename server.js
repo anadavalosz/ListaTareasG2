@@ -7,6 +7,10 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 app.use(express.json());
 
+app.get('/', (req, res) =>{
+  res.send('Hello World')
+})
+
 let tareas = {
   1: {
     "nombre": "leer capitulo libro lenguaje C", "tiempo_limite": "28/11/20"
@@ -48,3 +52,7 @@ const server = app.listen(PORT, () => {
   const port = server.address().port;
   console.log("http://localhost:" + port);
 });
+
+// app.listen(PORT, function() {
+//   console.log("Node server running on http://localhost:8080");
+//  });
